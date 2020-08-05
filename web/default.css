@@ -1,0 +1,122 @@
+
+body {
+    margin: 0;
+    padding: 0; 
+    background-image: url('banco.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    height: 100vh; /*vh=view height*/
+
+}
+
+
+.Wrapper{
+    border-radius: 10%;
+    width: 320px;
+    height: 420px;
+    background: #666666;
+    color: #fff;
+    position: absolute;
+    top: 50%; /*Centrar*/
+    left: 50%; /*Centrar*/
+    transform: translate(-50%,-50%); /*Centrar el objeto*/
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.Wrapper label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+.Wrapper h1{
+    margin: 0;
+    padding: 0 0 20px; /*Los 20px es para que tenga un pequeño espaciado hacia abajo*/
+    text-align: center;
+    font-size: 22px;
+    display: block;
+}
+.Wrapper input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.Wrapper input[type="text"],
+.Wrapper input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.Wrapper input[type="submit"]{
+    border:none;
+    outline: none;
+    height: 40px;
+    background: linear-gradient(#FFDA63, #FF8940);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.Wrapper a{
+    text-decoration: none;
+    font-size: 12pt;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.Wrapper a:hover{
+    color:#ff0033;
+}
+
+.overlay{
+    background: rgba(0,0,0,.3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    visibility: hidden;
+}
+.overlay.active {
+	visibility: hidden;
+}
+.popup {
+	background: #F8F8F8;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+	border-radius: 3px;
+	font-family: 'Montserrat', sans-serif;
+	padding: 20px;
+	text-align: center;
+	width: 600px;
+	
+	transition: .3s ease all;
+	transform: scale(0.7);
+	opacity: 0;
+}
+
+.popup .btn-cerrar-popup {
+	font-size: 16px;
+	line-height: 16px;
+	display: block;
+	text-align: right;
+	transition: .3s ease all;
+	color: #BBBBBB;
+}
+.popup .btn-cerrar-popup:hover {
+	color: #000;
+}
+
+.popup h3 {
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	opacity: 0;
+}

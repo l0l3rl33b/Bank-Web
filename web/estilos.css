@@ -1,0 +1,71 @@
+
+/* 
+    Created on : 30/03/2020, 02:07:45 PM
+    Author     : David
+*/
+
+
+body {
+
+    margin: 0;
+    padding: 0; 
+    background-image: url('banco.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:  sans-serif;
+    height: 100vh; /*vh=view height*/
+
+}
+#Tabla_creacion_cuentas{
+    margin:auto;
+}
+#Titulo_de_Creacion_cuentas{
+    margin: auto;
+    text-align: center;
+    border-bottom: 3px  solid #000 ;
+}
+#titulo_de_tranfer_principal
+{
+    margin: auto;
+    text-align: center;
+    border-bottom: 3px  solid #000 ;
+}
+#text_cuenta_fav{
+    margin: auto;
+
+}
+#cliente_label{
+    font-family:  sans-serif;
+    font-size: 15pt;
+    color: #ff0033;
+}
+#tabla_referencia th {
+    background-color: transparent;
+    padding:10px 40px 15px 50px; 
+    border: none;
+
+}
+#Tabla_de_cuenta{
+    margin: auto;
+}
+#Tabla_de_cuenta th,
+#Tabla_de_cuenta td{
+    background-color: #fff;
+    padding: 0 50px 0 50px;
+}
+#tabla_referencia{
+    margin: auto;
+    border: none;
+    font-size: 15pt;
+}
+#Referecias_a_paginas{
+
+    border-bottom: 5px solid #000;
+}
+#titulo_primario{
+    text-align: center;
+    border-bottom: 3px solid #000;
+}
+#Tabla_vinculacion_cuenta{
+    margin: auto;
+}
